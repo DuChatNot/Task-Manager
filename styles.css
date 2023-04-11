@@ -1,0 +1,89 @@
+*{
+    background-color: black;
+}
+
+body{
+    margin: 12px;
+    padding: 12px;
+    display: grid;
+    grid-template: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+#title{
+    color: white;
+    justify-self: center;
+    font-size: 40px
+}
+
+#date{
+    color: white;
+}
+
+#main{
+    width: 95vw;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+#taskInput{
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 25px;
+    margin: 16px;
+    padding: 8px;
+}
+
+#addTask{
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+}
+
+.taskArticle{
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 16px;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    height: 15px;
+    width: auto;
+}
+
+#btnSec{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium';
+    margin: 16px;
+}
+
+.removeTask{
+    width: 50px;
+    height: 30px;
+    margin: 16px;
+    border-radius: 4px;
+    border: 1px solid gold;
+    color: white;
+    padding: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
